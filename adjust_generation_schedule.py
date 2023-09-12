@@ -142,7 +142,7 @@ plt.xlabel('Hour')
 plt.ylabel('Generation (MW)')
 plt.title('Original and Adjusted Generation Schedules (Phase 2)')
 plt.legend()
-textstr = f'Value: {tolerance}'
+textstr = f'Tolerance: {tolerance}'
 props = dict(boxstyle='round,pad=0.3', facecolor='yellow', alpha=0.5)
 plt.annotate(textstr, xy=(0, 1), xycoords='axes fraction', fontsize=12,
              verticalalignment='top', bbox=props)
