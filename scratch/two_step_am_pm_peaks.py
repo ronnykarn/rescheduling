@@ -8,7 +8,7 @@ import cvxpy as cp
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('ramp_constraints.csv')
+data = pd.read_csv('../ramp_constraints.csv')
 
 # Variable for the new generation schedule
 G_new = cp.Variable(len(data['Generation Schedule']), nonneg=True)
